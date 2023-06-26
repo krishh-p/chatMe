@@ -1,0 +1,272 @@
+h1 {
+  display: block;
+  text-align: center;
+  font-family: 'Krona One';
+  font-size:100px;
+  color: #233565;
+}
+
+.loginBox {
+  background-color: #E7E8E7;
+  padding: 30px;
+  width: 30%;
+  border-radius: 30px;
+  font-size: 25px;
+  box-shadow: 0px 0px 70px 5px grey;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.loginBox input[type=text], [type=password] {
+  border: solid 2px black;
+  width: 70%;
+  height: 40px;
+  font-size: 20px;
+}
+
+#genders input[type=radio] {
+  accent-color: red;
+  transform: scale(1.3);
+  width:25px;
+  height:25px;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 30%;
+  height: 5%;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.2s;
+  background-color:#51D433;
+  color: white;
+  text-decoration:none;
+  font-size: 20px;
+  display: block;
+  border:solid 2px black;
+}
+
+.button:hover {
+  filter: brightness(80%);
+}
+
+.button a {
+  color: white;
+  text-decoration:none;
+  font-size: 20px;
+  display: block;
+}
+
+.menuTable {
+  margin-top:-14em;
+  border-spacing: 200px;
+}
+
+.menuTable td{
+  border: 3px solid black;
+  width: 40%;
+  height: 400px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: 'Rubik', sans-serif;
+  color: #172a5e;
+  font-size: 40px;
+}
+
+.menuTable td:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.forum {
+  display: block;
+  text-align:center;
+}
+
+.forum textarea {
+  font-size: 20px;
+}
+
+.forumOutput {
+  margin-left: auto; 
+  margin-right: auto;
+  color:black;
+  border-color: white;
+  width: 80%;
+  border: solid 3px black; 
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+  background-color: rgba(0, 128, 255, 0.2);
+}
+
+.forumOutput td, th {
+  padding:30px;
+  max-width:150px;
+  word-wrap:break-word;
+}
+
+.forumOutput th {
+  font-size:30px;
+}
+
+/* The side navigation (permanent) */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  background-color: #f1f1f1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+  color: #172a5e;
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sidebar a {
+  margin-top: 8%;
+  display: block;
+  color: #172a5e;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.sidebar #loggedin{
+  margin-left: 7%;
+  font-weight: bold;
+  padding-top: 10%;
+}
+
+.sidebar #links{
+  margin-top: 20%;
+}
+
+.sidebar #logo{
+  margin-top:10%;
+  margin-left: 7%;
+}
+
+/* The side navigation (open and close) */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: #172a5e;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sidenav a {
+  margin-top: 8%;
+  display: block;
+  color: #172a5e;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidenav a:hover{
+  background-color: #555;
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav #loggedin{
+  margin-left: 7%;
+  font-weight: bold;
+  padding-top: 10%;
+}
+
+.sidenav #links{
+  margin-top: 20%;
+}
+
+.sidenav #logo{
+  margin-top:10%;
+  margin-left: 7%;
+}
+
+.startChat {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.startChat input[type=submit] {
+  height: 100px;
+  width: 400px;
+  font-weight: bold;
+  border: solid 3px;
+  font-size: 30px;
+  background-color:red;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.startChat input[type=submit]:hover {
+  filter: brightness(70%);
+}
+
+#options {
+  font-size: 20px;
+  width: 400px;
+  cursor:pointer;
+  border: 2px solid black;
+}
+
+/* td #date{
+  
+}
+
+td #name{
+  
+}
+
+#bullet{
+  max-width: 3%;
+  background-color: #969696;
+}
+
+td #message{
+  
+} */

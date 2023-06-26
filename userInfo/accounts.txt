@@ -1,0 +1,14 @@
+Mika,Vohl,bingbong,Male
+Krish,Patel,1234,Male
+Cyrus,Chung,p,Female
+Jeremy,Chong,1,Female
+Ty,Dryden,fort,Female
+Aarnav,Dan,poop,Male
+Mann,Patel,wasdwasd,Male
+Faraaz,Muhammad,mikacockbig,Other
+Samuel,Yang,1234567890,Male
+Burhan,Karimjee,q,Male
+Test,User,Test123,Male
+Ivan,Tsang,1,Other
+Albert,Krnic,test,Male
+Albert2,Krnic2,test2,Male
